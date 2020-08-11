@@ -2,7 +2,7 @@ data:
   corpus:                                 # Pass to dataloader
     # The following depends on corpus
     name: 'DLHLP'                         # Specify corpus
-    path: '/data/storage/harry/test_env/DLHLP'
+    path: '/work/b07u1234/b06502162/HW1/model1'
     train_split: ['train']
     dev_split: ['dev']
     bucketing: True
@@ -26,7 +26,7 @@ data:
 
 hparas:                                   # Experiment hyper-parameters
   valid_step: 500
-  max_step: 80000
+  max_step: 5000
   tf_start: 1.0
   tf_end: 1.0
   tf_step: 150000
