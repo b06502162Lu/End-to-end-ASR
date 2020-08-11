@@ -2,7 +2,7 @@ data:
   corpus:                                 # Pass to dataloader
     # The following depends on corpus
     name: 'DLHLP'                         # Specify corpus
-    path: '/work/b07u1234/b06502162/HW1/model1'
+    path: '/work/b07u1234/b06502162/HW1/model1/DLHLP'
     train_split: ['train']
     dev_split: ['dev']
     bucketing: True
