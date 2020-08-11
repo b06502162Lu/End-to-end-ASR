@@ -9,7 +9,7 @@ data:
     batch_size: 1
 src:
   config: '/work/b07u1234/b06502162/HW1/model1/End-to-end-ASR/config/dlhlp_asr.yaml'
-  ckpt: '/work/b07u1234/b06502162/HW1/model1/ckpt/naive/best_ctc_dev.pth on dev '
+  ckpt: '/work/b07u1234/b06502162/HW1/model1/ckpt/naive/best_ctc_dev.pth'
 
 decode:
   beam_size: 1
