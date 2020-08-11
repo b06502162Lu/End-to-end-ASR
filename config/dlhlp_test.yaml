@@ -8,7 +8,7 @@ data:
     bucketing: False
     batch_size: 1
 src:
-  config: '/data/storage/harry/End-to-end-ASR-Pytorch/config/dlhlp_asr.yaml'
+  config: '/work/b07u1234/b06502162/HW1/model1/End-to-end-ASR/config/dlhlp_asr.yaml'
   ckpt: '/work/b07u1234/b06502162/HW1/model1/ckpt/naive/best_ctc_dev.pth on dev '
 
 decode:
