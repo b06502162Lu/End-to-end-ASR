@@ -2,7 +2,7 @@ data:
   corpus:                                 # Pass to dataloader
     # The following depends on corpus
     name: 'DLHLP'                         # Specify corpus
-    path: '/data/storage/harry/test_env/DLHLP'
+    path: '/work/b07u1234/b06502162/HW1/model1DLHLP'
     dev_split: ['dev']
     test_split: ['test']
     bucketing: False
